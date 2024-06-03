@@ -9,7 +9,7 @@
 
 public class PracticeSet3 {
   public static void main(String[] args) {
-    //Problen 1
+    //Problem 1
         String name = "Samm";
         name = name.toLowerCase();
         System.out.println(name);
@@ -21,7 +21,7 @@ public class PracticeSet3 {
 
         //Problem 3
         String letter = "Dear <|name|>, Thanks a lot!";
-        letter = letter.replace("<|name|>", "Harry");
+        letter = letter.replace("<|name|>", "Samriddhi");
         System.out.println(letter);
 
         //Problem 4
@@ -30,7 +30,7 @@ public class PracticeSet3 {
         System.out.println(myString.indexOf("   "));
 
         //Problem 5
-        String myLetter = "Dear Harry,\n\t This Java Course is Nice. \n\t Thanks!";
+        String myLetter = "Dear Samriddhi,\n\t This Java Course is Nice. \n\t Thanks!";
         System.out.println(myLetter);
     }
 }
